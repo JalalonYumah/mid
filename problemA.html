@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>calculator</title>
+
+</head>
+<body align="center">
+
+
+	<br>
+	<input type="number" placehoder="0" id="ndisplay">
+	<br>
+	<br>
+	<button onclick="attachNumber(this)">1</button>
+	<button onclick="attachNumber(this)">2</button>
+	<button onclick="attachNumber(this)">3</button>
+	<button id="divide" onclick='dodivide()'>/</button>
+	<button id="del" onclick='doDelete()' >del</button>
+	<br>
+	<button onclick="attachNumber(this)">4</button>
+	<button onclick="attachNumber(this)">5</button>
+	<button onclick="attachNumber(this)">6</button>
+	<button id="mul" onclick='doAdd()'>*</button>
+	<button onclick="bmodulo" >%</button>
+	<br>
+	<button onclick="attachNumber(this)">7</button> 
+	<button onclick="attachNumber(this)">8</button>
+	<button onclick="attachNumber(this)">9</button>
+	<button id="sub" onclick='dominus()'>-</button>
+	<button id="exp" onclick='doexponent()'>exp</button>
+	<br>
+	<button onclick="attachNumber(this)" >0</button>
+	<button id="dot" onclick="bdot" >.</button>
+	<button id="add" onclick="badd" >+</button>
+	<button id="equals" onclick="bequals">=</button>
+	<button id="clear" onclick="bclear" >clr</button>
+	<br>
+	
+
+
+    <script type="txt/javascript">
+    	let n = document.getElementById(ndisplay);
+    	let numberholder;
+    	let optr
+
+    	function doAdd() {
+    		optr = "+"
+    		numberHolder = parseInt(n.value)
+    		
+
+
+    	}
+
+    	
+
+    </script>
+
+	<script type="button">
+		document.getElementById("one").style.color='red'
+		
+	</script>
+
+</body>
+</html>
